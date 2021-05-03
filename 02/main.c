@@ -60,3 +60,16 @@ int main(int argc, char* argv[]){
 
     return 0;
 }
+
+
+
+
+/*
+Expected output:
+
+global		main		thread		thread-static
+0x4dd030	0x4da249	(nil)	(nil)
+0x4dd030	0x4dd038	0xb74db34c	0x4dd034
+0x4dd030	0x4dd038	0xb6cda34c	0x4dd034
+0x4dd030	0x4dd038	0xb7cdc34c	0x4dd034
+*/

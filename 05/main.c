@@ -117,3 +117,23 @@ long timediff(clock_t t1, clock_t t2) {
     elapsed = ((double)t2 - t1) / CLOCKS_PER_SEC * 1000;
     return elapsed;
 }
+
+
+
+
+/*
+Expected output:
+
+Round 0
+with lock: 	588
+without lock:	63
+
+Round 1
+with lock: 	662
+without lock:	69
+
+Round 2
+with lock: 	646
+without lock:	76
+*/
+

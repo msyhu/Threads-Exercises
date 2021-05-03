@@ -76,3 +76,14 @@ int stick_this_thread_to_core(int core_id) {
    pthread_t current_thread = pthread_self();    
    return pthread_setaffinity_np(current_thread, sizeof(cpu_set_t), &cpuset);
 }
+
+
+
+
+/*
+Expected output:
+
+8463775
+expectd: 10000000
+result: 9063776
+*/

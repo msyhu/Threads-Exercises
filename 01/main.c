@@ -21,15 +21,6 @@ void* ninja(void* arg){
 }
 
 
-
-//
-// Expected output:
-//
-// Knock knock.
-// Who's there? - from ninja
-// Knuc...kles.
-//
-
 int main(int argc, char* argv[]){
     pthread_t tid;
     char* from = "";
@@ -54,3 +45,15 @@ int main(int argc, char* argv[]){
 
     return 0;
 }
+
+
+
+
+/*
+Expected output:
+
+Knock knock.
+Who’s there? - from ninja
+Knuc...kles.
+*/
+
