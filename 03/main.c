@@ -81,9 +81,17 @@ int stick_this_thread_to_core(int core_id) {
 
 
 /*
-Expected output:
+1.Expected output:
 
 8463775
 expectd: 10000000
 result: 9063776
+
+
+
+2.Expected output:
+
+6267912 
+expectd: 10000000
+result: 10000000
 */
