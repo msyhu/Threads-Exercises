@@ -53,8 +53,8 @@ int main(int argc, char* argv[])
 
 
 void do_job(char* actor){
-    cnt_task--;
     printf("[%s] working...\n", actor);
+    cnt_task--;
 }
 
 void go_home(char* actor){
