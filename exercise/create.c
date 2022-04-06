@@ -5,7 +5,7 @@
 #define NUM_THREADS 30
 
 void *hello_thread(void *arg) {
-    printf("%ld : Hello world!\n", (long)arg);
+    printf("%ld : Hello world!\n", (long int)arg);
 }
 
 main() {
