@@ -24,7 +24,7 @@ void main() {
     printf("pid : %d\n", getpid());
 
     for(i=0; i<NUM_THREADS; i++) {
-        status = pthread_create(&tid[i], NULL, &hello_thread, (void *)(intptr_t)i);
+        status = pthread_create(&tid[i], NULL, hello_thread, (void *)(intptr_t)i);
         if (status != 0) {
             fprintf(stderr, "create thread error: %s\n", strerror(status));
         }
