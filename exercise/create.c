@@ -2,7 +2,7 @@
 #include<pthread.h>
 #include<stdio.h>
 
-#define NUM_THREADS 100
+#define NUM_THREADS 30
 
 void *hello_thread(void *arg) {
     printf("%ld : Hello world!\n", (long)arg);
